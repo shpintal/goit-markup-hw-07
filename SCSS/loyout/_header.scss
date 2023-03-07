@@ -1,0 +1,120 @@
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-description {
+    margin-bottom: 50px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list,
+.list-addr {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 92px;
+    color: #000000;
+    display: block;
+}
+
+.logo-start {
+    color: var(--hover_focus-color);
+
+}
+
+.nav-list-link {
+    color: var(--primary-text-color-studio);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-list-item {
+    position: relative;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.visited_studio,
+.visited_portfolio:visited {
+    color: var(--hover_focus-color);
+}
+
+.contact-header {
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-text-color-studio);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.envelope-icon {
+    align-items: center;
+    margin-right: 10px;
+    fill: var(--secondary-text-color-studio);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-header:hover,
+.contact-header:focus {
+    color: #2196F3;
+}
+
+.contact-header:hover .envelope-icon,
+.contact-header:focus .envelope-icon 
+.contact-header:hover .envelope-icon,
+.contact-header:focus .envelope-icon {
+    fill: #2196F3;
+}
+
+
+.contact-number {
+    margin-left: 50px;
+}
+
+.visited_studio::after {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover_focus-color);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}

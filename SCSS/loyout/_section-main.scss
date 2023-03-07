@@ -1,0 +1,76 @@
+.section-main {
+    display: block;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--section-main-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    max-width: 696px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    justify-items: center;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    color: #FFFFFF;
+
+}
+
+.main-description {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+
+
+.list-main-description {
+    display: flex;
+}
+
+.description-preference {
+
+    padding-bottom: 0;
+}
+
+.description-preference-wrap {
+    justify-self: center;
+}
+
+.list-main-description-item {
+    width: 270px;
+    justify-items: center;
+}
+
+.list-main-description-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.main-sub-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}

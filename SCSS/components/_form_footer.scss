@@ -1,0 +1,67 @@
+.footer-contact-form-input {
+    font-family: var(--primari-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.footer-contact-form-input:focus {
+    border-color: var(--hover_focus-color);
+    outline: none;
+
+}
+.footer-contact-form-submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    margin-left: 12px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    background: var(--hover_focus-color);
+    border-radius: 4px;
+    border-color: transparent;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+.footer-icon {
+    margin-left: 10px;
+}
+.footer-contact-form-submit-btn:focus,
+.footer-contact-form-submit-btn:hover {
+    width: 200px;
+    height: 50px;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+.footer-contact-subscription {
+    margin-left: 92px;
+}
