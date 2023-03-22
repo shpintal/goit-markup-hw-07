@@ -22,11 +22,13 @@
 
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
+&:hover,
+    &:focus,
+    &:hover,
+    &:focus {
+        color: var(--hover_focus-color);
+    }
 }
 
-.contact-futer-addres:hover,
-.contact-futer-addres:focus,
-.contact-futer-addres:hover,
-.contact-futer-addres:focus {
-    color: var(--hover_focus-color);
-}
+

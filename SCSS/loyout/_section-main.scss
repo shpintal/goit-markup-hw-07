@@ -58,11 +58,13 @@
 .list-main-description-item {
     width: 270px;
     justify-items: center;
+&:not(:last-child) {
+        margin-right: 30px;
+    }
+
 }
 
-.list-main-description-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .main-sub-title {
     font-style: normal;

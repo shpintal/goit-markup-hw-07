@@ -16,8 +16,8 @@
     background-color: var(--hover_focus-color);
     color: #FFFFFF;
     cursor: pointer;
+&:active {
+        background-color: #188CE8;
+    }
 }
 
-.modal-btn:active {
-    background-color: #188CE8;
-}

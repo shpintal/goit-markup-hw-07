@@ -99,7 +99,6 @@ address {
   color: #FFFFFF;
   cursor: pointer;
 }
-
 .modal-btn:active {
   background-color: #188CE8;
 }
@@ -165,15 +164,12 @@ address {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-close-btn:focus,
-.modal-close-btn:hover {
+.modal-close-btn:focus, .modal-close-btn:hover {
   fill: var(--hover_focus-color);
 }
 
 .contact-form-field {
   position: relative;
-  /* margin-bottom: 10px; */
 }
 
 .contact-form-input {
@@ -185,22 +181,20 @@ address {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contact-form-input:focus {
+  border-color: var(--hover_focus-color);
+  outline: none;
+}
+.contact-form-input:focus + .contact-form-icon {
+  fill: var(--hover_focus-color);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .contact-input-svg {
   display: block;
   position: relative;
   margin-bottom: 10px;
-}
-
-.contact-form-input:focus {
-  border-color: var(--hover_focus-color);
-  outline: none;
-}
-
-.contact-form-input:focus + .contact-form-icon {
-  fill: var(--hover_focus-color);
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-form {
@@ -235,7 +229,6 @@ address {
   color: var(--secondary-text-color-studio);
   outline: none;
 }
-
 .contact-form-text-ref:hover {
   cursor: pointer;
 }
@@ -263,7 +256,6 @@ address {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 20px;
 }
-
 .contact-form-message:focus {
   border-color: var(--hover_focus-color);
   outline: none;
@@ -299,9 +291,7 @@ address {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-.contact-form-submit-btn:focus,
-.contact-form-submit-btn:hover {
+.contact-form-submit-btn:focus, .contact-form-submit-btn:hover {
   width: 200px;
   height: 50px;
   background: #188CE8;
@@ -319,9 +309,7 @@ address {
   outline: none;
   color: var(--secondary-text-color-studio);
 }
-
-.contact-form-text-ref-href:focus,
-.contact-form-text-ref-href:hover {
+.contact-form-text-ref-href:focus, .contact-form-text-ref-href:hover {
   outline: none;
   color: var(--hover_focus-color);
 }
@@ -334,9 +322,7 @@ address {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.contact-form-checkbox:focus + .contact-form-checkbox-label::before,
-.contact-form-checkbox:hover + .contact-form-checkbox-label::before {
+.contact-form-checkbox-label:focus + .contact-form-checkbox-label::before, .contact-form-checkbox-label:hover + .contact-form-checkbox-label::before {
   border: 1px solid var(--hover_focus-color);
   border-radius: 2px;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -391,7 +377,6 @@ address {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-contact-form-input:focus {
   border-color: var(--hover_focus-color);
   outline: none;
@@ -424,13 +409,7 @@ address {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-.footer-icon {
-  margin-left: 10px;
-}
-
-.footer-contact-form-submit-btn:focus,
-.footer-contact-form-submit-btn:hover {
+.footer-contact-form-submit-btn:focus, .footer-contact-form-submit-btn:hover {
   width: 200px;
   height: 50px;
   background: #188CE8;
@@ -442,6 +421,10 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+}
+
+.footer-icon {
+  margin-left: 10px;
 }
 
 .footer-contact-subscription {
@@ -475,6 +458,10 @@ address {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social-list-link:hover, .social-list-link:focus {
+  fill: #FFFFFF;
+  background-color: var(--hover_focus-color);
+}
 
 .footer-social-list-subscription {
   display: -webkit-box;
@@ -486,14 +473,6 @@ address {
   margin-right: 10px;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-  fill: #FFFFFF;
-  background-color: var(--hover_focus-color);
-}
-
-/* -------------------------------------------------- */
-/* ======================================================== */
 .footer-social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,27 +501,22 @@ address {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-social-list-link:hover, .footer-social-list-link:focus {
+  fill: #FFFFFF;
+  background-color: var(--hover_focus-color);
+}
 
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  fill: #FFFFFF;
-  background-color: var(--hover_focus-color);
-}
-
-/* =================================================== */
 .clients-icon {
   border: #AFB1B8 solid 1px;
   border-radius: 4px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients-icon:focus,
-.clients-icon:hover {
+.clients-icon:focus, .clients-icon:hover {
   fill: var(--hover_focus-color);
   border: var(--hover_focus-color) solid 1px;
 }
@@ -567,11 +541,6 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.logo-footer {
-  color: #FFFFFF;
-  margin-bottom: 28px;
 }
 
 .footer {
@@ -621,9 +590,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfolio-butn:hover,
-.portfolio-butn:focus {
+.portfolio-butn:hover, .portfolio-butn:focus {
   background: var(--hover_focus-color);
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -765,6 +732,11 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.logo-footer {
+  color: #FFFFFF;
+  margin-bottom: 28px;
 }
 
 .section-main {
